@@ -1,0 +1,11 @@
+com\adobe\aem\guides\aemreviewproject\core\listeners\SimpleResourceListener.class
+com\adobe\aem\guides\aemreviewproject\core\filters\package-info.class
+com\adobe\aem\guides\aemreviewproject\core\filters\LoggingFilter.class
+com\adobe\aem\guides\aemreviewproject\core\models\HelloWorldModel.class
+com\adobe\aem\guides\aemreviewproject\core\servlets\package-info.class
+com\adobe\aem\guides\aemreviewproject\core\servlets\SimpleServlet.class
+com\adobe\aem\guides\aemreviewproject\core\schedulers\SimpleScheduledTask.class
+com\adobe\aem\guides\aemreviewproject\core\listeners\package-info.class
+com\adobe\aem\guides\aemreviewproject\core\models\package-info.class
+com\adobe\aem\guides\aemreviewproject\core\schedulers\package-info.class
+com\adobe\aem\guides\aemreviewproject\core\schedulers\SimpleScheduledTask$Config.class

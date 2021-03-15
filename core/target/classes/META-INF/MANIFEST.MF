@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Bundle-Description: "Core bundle for Aem Review Project"
+Bundle-SymbolicName: aemreviewproject.core
+Bundle-Category: review
+Bnd-LastModified: 1615818796110
+Bundle-ManifestVersion: 2
+Import-Package: com.adobe.aem.guides.aemreviewproject.core.filters;ver
+ sion="[1.0,2)",com.adobe.aem.guides.aemreviewproject.core.listeners;v
+ ersion="[1.0,2)",com.adobe.aem.guides.aemreviewproject.core.scheduler
+ s;version="[1.0,2)",com.adobe.aem.guides.aemreviewproject.core.servle
+ ts;version="[1.0,2)",com.day.cq.wcm.api;version="[1.27,2)",javax.anno
+ tation;version="[1.3,2)",javax.servlet;version="[3.1,4)",org.apache.s
+ ling.api;version="[2.3,3)",org.apache.sling.api.request;version="[2.4
+ ,3)",org.apache.sling.api.resource;version="[2.11,3)",org.apache.slin
+ g.api.servlets;version="[2.2,3)",org.apache.sling.models.annotations;
+ version="[1.5,2)",org.apache.sling.models.annotations.injectorspecifi
+ c;version="[1.1,2)",org.apache.sling.settings;version="[1.3,2)",org.o
+ sgi.service.event;version="[1.3,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.aem.guides.aemreviewproject.core
+ .filters.LoggingFilter.xml,OSGI-INF/com.adobe.aem.guides.aemreviewpro
+ ject.core.listeners.SimpleResourceListener.xml,OSGI-INF/com.adobe.aem
+ .guides.aemreviewproject.core.schedulers.SimpleScheduledTask.xml,OSGI
+ -INF/com.adobe.aem.guides.aemreviewproject.core.servlets.SimpleServle
+ t.xml
+Tool: Bnd-4.2.0.201903051501
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ,osgi.service;objectClass:List<String>="javax.servlet.Servlet",osgi.s
+ ervice;objectClass:List<String>="org.osgi.service.event.EventHandler"
+Export-Package: com.adobe.aem.guides.aemreviewproject.core.filters;ver
+ sion="1.0";uses:="javax.servlet",com.adobe.aem.guides.aemreviewprojec
+ t.core.listeners;version="1.0";uses:="org.osgi.service.event",com.ado
+ be.aem.guides.aemreviewproject.core.models;version="1.0";uses:="javax
+ .annotation,org.apache.sling.api.resource,org.apache.sling.models.ann
+ otations,org.apache.sling.models.annotations.injectorspecific",com.ad
+ obe.aem.guides.aemreviewproject.core.schedulers;version="1.0",com.ado
+ be.aem.guides.aemreviewproject.core.servlets;version="1.0";uses:="jav
+ ax.servlet,org.apache.sling.api,org.apache.sling.api.servlets"
+Bundle-Name: Aem Review Project - Core
+Bundle-Version: 0.0.1.20210315143316109
+Build-Jdk-Spec: 1.8
+Created-By: 1.8.0_151 (Oracle Corporation)
+Sling-Model-Packages: com.adobe.aem.guides.aemreviewproject.core.model
+ s
+

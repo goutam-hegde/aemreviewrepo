@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Aem Review Project - UI content
+Content-Package-Roots: /conf/aemreviewproject,/content/aemreviewprojec
+ t,/content/dam/aemreviewproject
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: M1062409
+Implementation-Vendor-Id: com.mindtree
+Content-Package-Type: content
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_151
+Content-Package-Description: UI content package for Aem Review Project
+Content-Package-Id: review:aemreviewproject.ui.content:0.0.1-SNAPSHOT
+

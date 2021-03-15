@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aemreviewproject" mode="merge"/>
+    <filter root="/content/aemreviewproject" mode="merge"/>
+    <filter root="/content/dam/aemreviewproject" mode="merge"/>
+</workspaceFilter>
